@@ -33,7 +33,7 @@ variable "rmquser" {
 
 variable "rmqpass" {
   sensitive = true
-  default = "Gr33n@pple123456"
+  default   = "Gr33n@pple123456"
 }
 
 variable "dbuser" {
@@ -42,7 +42,7 @@ variable "dbuser" {
 
 variable "dbpass" {
   sensitive = true
-  default = "admin123"
+  default   = "admin123"
 }
 
 variable "dbname" {
